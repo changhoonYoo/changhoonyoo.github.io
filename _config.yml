@@ -1,12 +1,12 @@
 # Site settings
-title: 안녕하세요, 유창훈입니다!
+title: portfolio
 email: kuilcake@gmail.com
 url: https://changhoonyoo.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "포기하지 않는 개발자"
+#description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+#keywords: "your keywords, separated by commas"
+skills: "Backend Developer(Java)"
 meta_author: 창훈 유
-
+introduce: 안녕하세요, 유창훈입니다!
 # Google webmaster tools
 google_verify:
 
@@ -21,7 +21,7 @@ contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+#disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -31,10 +31,10 @@ color:
   secondary-dark: 233140 #A2122F
 
 # Footer settings
-footer:
-  copyright: kuilcake
-  location: Location
-  social: Around the Web
+#footer:
+#  copyright: kuilcake
+#  location: Location
+#  social: Around the Web
 #  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -51,8 +51,8 @@ social:
     url: https://github.com/changhoonYoo
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 인천시 부평구
+#address:
+#  - line: 인천시 부평구
 
 # Credits content
 #credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
@@ -62,9 +62,9 @@ markdown: kramdown
 permalink: pretty
 
 #for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: ""
+#defaults:
+#  - scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#      permalink: ""
