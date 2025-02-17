@@ -116,7 +116,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 3.75em;
+        font-size: 3.5em;
     }
 
     header .intro-text .skills {
@@ -488,4 +488,13 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+.image-container {
+    padding-left: 15px;
+}
+.fixed-size {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
 }
