@@ -180,10 +180,12 @@ section h2 {
     font-size: 3em;
 }
 
+/*
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
 }
+*/
 
 @media(max-width:767px) {
     section {
@@ -193,6 +195,11 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+#portfolio {
+    color: #fff;
+    background: #{{ site.color.primary }};
 }
 
 #portfolio .portfolio-item {
