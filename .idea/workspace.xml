@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24681ffb-d819-47af-bb98-ee43e083eabb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/contact_disqus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/contact_static.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/js_disqus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/modals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/portfolio_grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-07-13-project-6.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-07-14-project-5.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-07-15-project-4.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-07-16-project-3.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-07-17-project-2.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-07-18-project-1.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/feed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/css/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-v4compatibility.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/webfonts/fa-v4compatibility.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freelancer-theme-jekyll.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/cabin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/cake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/circus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/game.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/safe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/submarine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/profile2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skill/css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skill/docker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skill/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skill/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skill/java.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skill/js.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skill/jsp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skill/linux.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skill/mysql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skill/oracle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skill/postgresql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skill/rabbitmq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skill/redis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skill/springboot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tool/dbeaver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tool/figma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tool/filezilla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tool/intellij.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tool/mobaxterm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tool/notion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tool/postman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tool/vs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/cbpAnimatedHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/cbpAnimatedHeader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/classie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/contact_me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/contact_me_static.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/freelancer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jqBootstrapValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-1.11.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail/contact_me.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;changhoonYoo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/changhoonYoo/changhoonyoo.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;e288d14f-9994-449c-a2d4-17ef511c1068&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2t9GaiiHKgkFY2O8oCWUcrTVh9C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24681ffb-d819-47af-bb98-ee43e083eabb" name="Changes" comment="" />
+      <created>1739756941989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739756941989</updated>
+    </task>
+    <servers />
+  </component>
+</project>
