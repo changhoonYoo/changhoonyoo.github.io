@@ -67,8 +67,6 @@
   padding: 12px 24px;
   font-size: 16px;
   font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   color: #fff;
   background: linear-gradient(135deg, #4F46E5, #6B21A8); /* 보라색 계열 그라데이션 */
   border: none;
@@ -98,7 +96,7 @@
 }
 
 .know-more-btn:hover {
-  color: #D1C4E9; /* 원하는 글자색으로 변경 */
+  color: #ded8eb; /* 원하는 글자색으로 변경 */
   background: linear-gradient(135deg, #6B21A8, #4F46E5); /* 약간 반전된 느낌 */
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(79, 70, 229, 0.5);
