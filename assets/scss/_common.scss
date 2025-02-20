@@ -300,4 +300,37 @@ textarea.form-control{
 .section-title {
     text-decoration: underline;
 }
+
+.skill-container {
+  display: flex;
+  flex-wrap: wrap; /* 줄바꿈을 가능하게 설정 */
+  gap: 5px; /* 이미지 간 간격 */
+  padding: 10px 20px 10px; /* 컨테이너 내부 여백 */
+  background: linear-gradient(90deg, #0F2027, #203A43, #2C5364);
+  border-radius: 10px; /* 네모판의 모서리 둥글게 처리 */
+}
+
+.tool-container {
+  display: flex;
+  flex-wrap: wrap; /* 줄바꿈을 가능하게 설정 */
+  gap: 5px; /* 이미지 간 간격 */
+  padding: 10px 20px 10px; /* 컨테이너 내부 여백 */
+  background: linear-gradient(90deg, #2C5364, #203A43, #0F2027);
+  border-radius: 10px; /* 네모판의 모서리 둥글게 처리 */
+}
+
+.image-item {
+  border-radius: 15px; /* 배경의 모서리 둥글게 처리 */
+  padding: 15px;
+  display: inline-block;
+  width: 80px; /* 개별 이미지의 너비 */
+  height: 80px; /* 개별 이미지의 높이 */
+  display: flex;
+}
+
+.image-item img {
+  width: 100%; /* 이미지가 `div`에 맞게 크기 조정 */
+  height: 100%; /* 이미지가 `div`에 맞게 크기 조정 */
+}
+
 /* /card */
