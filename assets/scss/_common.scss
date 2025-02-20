@@ -73,6 +73,7 @@ a:hover {
   &-title {
     margin-bottom: 80px;
     font-family: $secondary-font;
+    font-weight: 600;
   }
 }
 
@@ -272,4 +273,19 @@ textarea.form-control{
     border: 0;
   }
 }
+
+.hr-fade {
+  height: 2px;
+  border: none;
+  background: linear-gradient(to right, rgba(0,0,0,0), #333, rgba(0,0,0,0));
+  margin: 40px 0;
+}
+
+.hero-title {
+  font-family: "Jua", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#fff;
+}
+
 /* /card */

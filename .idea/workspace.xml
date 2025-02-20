@@ -6,6 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="24681ffb-d819-47af-bb98-ee43e083eabb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/settings.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/about-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/about-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/blog-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/blog-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/education-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/education-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/experience-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/experience-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/hero-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/hero-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/portfolio-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/portfolio-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/skills-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/skills-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/templates/_homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/templates/_homepage.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
