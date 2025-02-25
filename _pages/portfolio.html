@@ -26,7 +26,7 @@ title: Project
           <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
+              <a class="btn btn-light btn-sm" href="#" data-toggle="modal" data-target="#portfolioModal" data-url="{{ site.baseurl }}/{{ item.url }}">view project</a>
             </div>
           </div>
         </div>
@@ -36,7 +36,19 @@ title: Project
   </div>
 </section>
 <!-- /portfolio -->
-
+<div class="modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <!-- 마크다운 내용이 이곳에 로드됩니다 -->
+        <div id="modalContent" class="content"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary close-btn" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- clients -->
 <section class="section bg-light">
   <div class="container">

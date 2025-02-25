@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24681ffb-d819-47af-bb98-ee43e083eabb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_includes/modals.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/projects/test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/about/우수인재추천.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/bus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_data/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/settings.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/portfolio-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/portfolio-section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/skills-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/skills-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/projects/test.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_common.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,21 +53,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kuilc/portfolio/assets/projects&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/kuilc/portfolio/assets/images/portfolio"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\kuilc\portfolio\assets\projects" />
-      <recent name="C:\Users\kuilc\portfolio\assets\images\skill" />
-      <recent name="C:\Users\kuilc\portfolio\assets\images" />
+      <recent name="C:\Users\kuilc\portfolio\assets\images\portfolio" />
+      <recent name="C:\Users\kuilc\portfolio\_layouts" />
+      <recent name="C:\Users\kuilc\portfolio\_includes" />
+      <recent name="C:\Users\kuilc\portfolio\assets\images\portfolio\bus" />
+      <recent name="C:\Users\kuilc\portfolio\assets\images\about" />
     </key>
   </component>
   <component name="RunManager">

@@ -155,23 +155,22 @@
   });
 })(jQuery);
 
-$(document).ready(function() {
-    $('#portfolioModal').on('show.bs.modal', function (event) {
-      var button = $(event.relatedTarget); // 버튼 클릭한 객체
-      var url = button.data('url'); // 마크다운 파일 URL
+document.addEventListener("DOMContentLoaded", function () {
+    const modal = document.getElementById("portfolioModal");
+    const modalContent = document.getElementById("modalContent");
 
-      // 마크다운 파일을 fetch로 로드
-      fetch(url)
-        .then(response => response.text())
-        .then(markdownContent => {
-          // 마크다운을 HTML로 변환 (marked.default로 호출)
-          var htmlContent = marked(markdownContent);  // 또는 marked.default(markdownContent)로 수정 필요
-          // 모달에 HTML 콘텐츠 삽입
-          var modalContent = $(this).find('#modalContent');
-          modalContent.html(htmlContent);
-        })
-        .catch(error => {
-          console.error('Error loading markdown file:', error);
+    document.querySelectorAll("[data-toggle='modal']").forEach(button => {
+        button.addEventListener("click", function () {
+            const url = this.getAttribute("data-url"); // HTML 파일 경로 가져오기
+
+            if (url) {
+                fetch(url)
+                    .then(response => response.text()) // HTML 파일 직접 로드
+                    .then(html => {
+                        modalContent.innerHTML = html; // 변환 없이 바로 삽입
+                    })
+                    .catch(error => console.error("Error loading HTML file:", error));
+            }
         });
     });
 });

@@ -56,18 +56,18 @@ blurb-btn-name: Know more
 # About Page
 
 # Work Process Section
-work-process:
-  - title: "Research and Plan"
-    icon: "assets/images/icons/plan.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-  - title: "Design and Develop"
-    icon: "assets/images/icons/design.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-  - title: "Deliver"
-    icon: "assets/images/icons/print.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#work-process:
+#  - title: "Research and Plan"
+#    icon: "assets/images/icons/plan.png"
+#    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#
+#  - title: "Design and Develop"
+#    icon: "assets/images/icons/design.png"
+#    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#
+#  - title: "Deliver"
+#    icon: "assets/images/icons/print.png"
+#    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 # My Team Section
 #team:
@@ -179,7 +179,7 @@ education:
 # Portfolio Home Section
 portfolio-home-items:
   - image: "assets/images/portfolio/bus-1.png"
-    url: "assets/projects/test.md"
+    url: "assets/images/portfolio/bus.html"
 
   - image: "assets/images/portfolio/item-2.png"
     url: "#"
@@ -195,16 +195,15 @@ portfolio-home-items:
 
 # Portfolio Page
 portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+  - { title: "Learning", type: "bootcamp" }
+  - { title: "Work", type: "work" }
+  - { title: "Personal", type: "personal" }
 
 portfolio-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/bus-1.png"
+    url: "assets/images/portfolio/bus.html"
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
+      - type: "bootcamp"
 
   - image: "assets/images/portfolio/item-2.png"
     url: "#"
