@@ -333,4 +333,78 @@ textarea.form-control{
   height: 100%; /* 이미지가 `div`에 맞게 크기 조정 */
 }
 
+.modal-dialog {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.modal-content {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  padding: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* 모달이 등장할 때 애니메이션 추가 */
+.modal.show .modal-content {
+  opacity: 1;
+}
+
+/* 마크다운 내용이 가운데 정렬되도록 설정 */
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0; /* 여백 제거 */
+  overflow-y: auto;
+}
+
+/* 마크다운 콘텐츠 영역 */
+#modalContent {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+/* 이미지 비율 맞추기 */
+#modalContent img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 예쁜 Close 버튼 스타일링 */
+.close-btn {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  z-index: 1050;
+  background: linear-gradient(135deg, #4F46E5, #6B21A8);
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* 호버 시 배경색 변화와 크기 변화 */
+.close-btn:hover {
+  background: linear-gradient(135deg, #9333ea, #d946ef);
+  transition: background 0.3s ease, transform 0.3s ease;
+
+}
+
+/* 포커스 상태에서 그림자 효과 */
+.close-btn:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* 버튼에 그림자 추가 */
+  background: linear-gradient(135deg, #9333ea, #d946ef); /* 포커스 시 배경색도 동일하게 설정 */
+}
 /* /card */
