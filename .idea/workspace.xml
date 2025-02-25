@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24681ffb-d819-47af-bb98-ee43e083eabb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/about/우수인재추천.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/bus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/settings.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/portfolio-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/portfolio-section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bus.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/portfolio/bus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/projects/test.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_common.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

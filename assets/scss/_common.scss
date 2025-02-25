@@ -408,6 +408,41 @@ textarea.form-control{
   background: linear-gradient(135deg, #9333ea, #d946ef); /* 포커스 시 배경색도 동일하게 설정 */
 }
 
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.p-image-item {
+    width: calc(33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.p-image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* 큰 이미지를 위한 스타일 */
+.large-image {
+    max-width: 100%; /* 부모 컨테이너에 맞게 크기 조정 */
+    height: auto;
+    width: 100%; /* 이미지를 전체 화면에 맞게 확대 */
+    max-width: 60%; /* 최대 60% 크기로 확대 */
+    margin: 0 auto; /* 가운데 정렬 */
+    display: block;
+}
+
+
 /* /card */
-
-

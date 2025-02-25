@@ -161,13 +161,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.querySelectorAll("[data-toggle='modal']").forEach(button => {
         button.addEventListener("click", function () {
-            const url = this.getAttribute("data-url"); // HTML 파일 경로 가져오기
+            const url = this.getAttribute("data-url");
 
             if (url) {
                 fetch(url)
-                    .then(response => response.text()) // HTML 파일 직접 로드
+                    .then(response => response.text())
                     .then(html => {
-                        modalContent.innerHTML = html; // 변환 없이 바로 삽입
+                        // 상대 경로를 처리할 수 있도록 HTML 삽입 전 URL을 변경
+                        modalContent.innerHTML = html;
+
+                        // 이미지가 상대경로일 경우, baseurl을 붙여줍니다.
+                        const images = modalContent.querySelectorAll("img");
+                        images.forEach(img => {
+                            const imgSrc = img.getAttribute("src");
+                            img.setAttribute("src", window.location.origin + "/" + imgSrc);
+                        });
                     })
                     .catch(error => console.error("Error loading HTML file:", error));
             }
