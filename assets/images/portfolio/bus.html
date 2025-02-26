@@ -1,10 +1,14 @@
 <aside>
     <div class="container project-container">
-        <h3 style="padding-top:50px;text-align:center; font-weight:600;">🚌 버스 예약 프로그램</h3>
+        <h3 style="padding-top:50px;text-align:center; font-weight:600;">🚌 버스 예매 프로그램</h3>
 
         <h4 style="font-weight:600;padding-top:30px;">🚩 Description</h4>
         <table class="table table-dark table-hover">
             <tbody>
+            <tr>
+                <th>프로젝트 소개</th>
+                <td>Swing 라이브러리와 JDBC를 활용하여 데이터의 흐름을 이해하는 버스 예매 프로젝트</td>
+            </tr>
             <tr>
                 <th>개발 기간</th>
                 <td>2023.02.07 ~ 2023.02.19 (약 2주)</td>
@@ -20,12 +24,14 @@
             <tr>
                 <th>담당 업무</th>
                 <td>
-                    ▫️ ID / PASSWD 찾기 UI <br>
-                    ▫️ 마이 페이지, 자주 묻는 질문 UI <br>
-                    ▫️ 좌석 선택 <br>
-                    ▫️ 예매 내역 <br>
-                    ▫️ 결제<br>
-                    ▫️ 관리자 기능
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-key"></i> <b>ID / PASSWD 찾기 UI</b></li>
+                        <li style="margin-top: 5px;"><i class="bi bi-person-circle"></i> <b>마이 페이지, 자주 묻는 질문 UI</b></li>
+                        <li style="margin-top: 5px;"><i class="bi bi-bus-front"></i> <b>좌석 선택 UI 및 기능</b></li>
+                        <li style="margin-top: 5px;"><i class="bi bi-card-list"></i> <b>예매 내역 UI 및 기능</b></li>
+                        <li style="margin-top: 5px;"><i class="bi bi-credit-card"></i> <b>결제 UI 및 기능</b></li>
+                        <li style="margin-top: 5px;"><i class="bi bi-tools"></i> <b>관리자 UI 및 기능</b></li>
+                    </ul>
                 </td>
             </tr>
             <tr>
@@ -38,7 +44,7 @@
             </tr>
             <tr>
                 <th>개발 스킬</th>
-                <td>Java, Java Swing, SQL</td>
+                <td>Java, Java Swing, JDBC, SQL</td>
             </tr>
             <tr>
                 <th>데이터베이스</th>
@@ -46,72 +52,82 @@
             </tr>
             <tr>
                 <th>Github</th>
-                <td><a target="_blank" href="https://github.com/changhoonYoo/bus_ticketting_project">https://github.com/changhoonYoo/bus_ticketting_project</a></td>
+                <td><a target="_blank" href="https://github.com/changhoonYoo/bus_ticketting_project">https://github.com/changhoonYoo/bus_ticketting_project</a>
+                </td>
             </tr>
             <tr>
                 <th>know more</th>
-                <td><a target="_blank" href="https://shore-muse-35e.notion.site/Yoo-ChangHoon-ae18ef4bac454e448864296facde147e">https://shore-muse-35e.notion.site/Yoo-ChangHoon-ae18ef4bac454e448864296facde147e</a></td>
+                <td><a target="_blank"
+                       href="https://shore-muse-35e.notion.site/Yoo-ChangHoon-ae18ef4bac454e448864296facde147e">https://shore-muse-35e.notion.site/Yoo-ChangHoon-ae18ef4bac454e448864296facde147e</a>
+                </td>
             </tr>
             </tbody>
         </table>
 
         <h4 style="font-weight:600;padding-top:30px;">🚩 Images</h4>
         <div class="image-gallery">
-            <div class="image-gallery">
-                <div>
-                    <img src="assets/images/portfolio/bus-3.png" style=" max-width: 80%; height: auto;">
-                    <br>
-                    <p class="image-description text-center">필요 기능 정리</p>
-                </div>
-                <div class="p-image-item">
-                    <img src="assets/images/portfolio/bus-2.png" class="img-fluid rounded"
-                         style="max-width: 100%; height: auto;">
-                    <p class="image-description">좌석 선택</p>
-                </div>
-                <div class="p-image-item">
-                    <img src="assets/images/portfolio/bus-5.webp" class="img-fluid rounded"
-                         style="max-width: 100%; height: auto;">
-                    <p class="image-description">예매 내역</p>
-                </div>
-                <div class="p-image-item">
-                    <img src="assets/images/portfolio/bus-6.webp" class="img-fluid rounded"
-                         style="max-width: 100%; height: auto;">
-                    <p class="image-description">결제</p>
-                </div>
-                <div class="p-image-item">
-                    <img src="assets/images/portfolio/bus-7.webp" class="img-fluid rounded"
-                         style="max-width: 100%; height: auto;">
-                    <p class="image-description">마이페이지</p>
-                </div>
-                <div class="p-image-item">
-                    <img src="assets/images/portfolio/bus-8.webp" class="img-fluid rounded"
-                         style="max-width: 100%; height: auto;">
-                    <p class="image-description">자주하는 질문</p>
-                </div>
+            <div class="border-image text-center">
+                <img src="assets/images/portfolio/bus/bus-3.png" style=" max-width: 80%; height: auto;">
+                <br>
+                <p class="image-title text-center">필요 기능 설계</p>
             </div>
-            <div class="image-gallery">
-                <div>
-                    <img src="assets/images/portfolio/bus-9.webp" class="img-fluid rounded"
-                         style="max-width: 100%; height: auto;">
-                    <p class="image-description text-center">관리자 메인</p>
-                </div>
+            <div class="p-image-item border-image">
+                <img src="assets/images/portfolio/bus/bus-2.png" class="img-fluid rounded"
+                     style="max-width: 100%; height: auto;">
+                <p class="image-title text-center">좌석 선택</p>
+                <p class="image-description text-center">☑️ 버스 정보, 좌석 선택에 따른 이미지 변경, 결제 정보 반영</p>
             </div>
-            <div class="image-gallery">
-                <div class="p-image-item">
-                    <img src="assets/images/portfolio/bus-10.webp" class="img-fluid rounded"
-                         style="max-width: 100%; height: auto;">
-                    <p class="image-description">회원 관리</p>
-                </div>
-                <div class="p-image-item">
-                    <img src="assets/images/portfolio/bus-11.webp" class="img-fluid rounded"
-                         style="max-width: 100%; height: auto;">
-                    <p class="image-description">버스 관리</p>
-                </div>
-                <div class="p-image-item">
-                    <img src="assets/images/portfolio/bus-12.webp" class="img-fluid rounded"
-                         style="max-width: 100%; height: auto;">
-                    <p class="image-description">예약 내역 관리</p>
-                </div>
+            <div class="p-image-item border-image">
+                <img src="assets/images/portfolio/bus/bus-5.webp" class="img-fluid rounded"
+                     style="max-width: 100%; height: auto;">
+                <p class="image-title text-center">예매 내역</p>
+                <p class="image-description text-center">☑️ 예매 정보 표출, 예매 취소 기능</p>
+            </div>
+            <div class="p-image-item border-image">
+                <img src="assets/images/portfolio/bus/bus-6.webp" class="img-fluid rounded"
+                     style="max-width: 100%; height: auto;">
+                <p class="image-title text-center">결제</p>
+                <p class="image-description text-center">☑️ 결제 금액 표출, 회원 유효성 검증</p>
+            </div>
+            <div class="p-image-item border-image">
+                <img src="assets/images/portfolio/bus/bus-7.webp" class="img-fluid rounded"
+                     style="max-width: 100%; height: auto;">
+                <p class="image-title text-center">마이페이지</p>
+                <p class="image-description text-center">☑️ UI 작업</p>
+            </div>
+            <div class="p-image-item border-image">
+                <img src="assets/images/portfolio/bus/bus-8.webp" class="img-fluid rounded"
+                     style="max-width: 100%; height: auto;">
+                <p class="image-title text-center">마이페이지</p>
+                <p class="image-description text-center">☑️ UI 작업</p>
+            </div>
+        </div>
+        <div class="image-gallery">
+            <div class="border-image">
+                <img src="assets/images/portfolio/bus/bus-9.webp" class="img-fluid rounded"
+                     style="max-width: 100%; height: auto;">
+                <p class="image-title text-center">관리자 메인</p>
+                <p class="image-description text-center">☑️ 관리자 계정 라우팅, UI</p>
+            </div>
+        </div>
+        <div class="image-gallery">
+            <div class="p-image-item border-image">
+                <img src="assets/images/portfolio/bus/bus-10.webp" class="img-fluid rounded"
+                     style="max-width: 100%; height: auto;">
+                <p class="image-title text-center">관리자 회원 관리</p>
+                <p class="image-description text-center">☑️ 회원 검색/삭제 기능</p>
+            </div>
+            <div class="p-image-item border-image">
+                <img src="assets/images/portfolio/bus/bus-11.webp" class="img-fluid rounded"
+                     style="max-width: 100%; height: auto;">
+                <p class="image-title text-center">관리자 버스 관리</p>
+                <p class="image-description text-center">☑️ 버스 정보 CRUD</p>
+            </div>
+            <div class="p-image-item border-image">
+                <img src="assets/images/portfolio/bus/bus-12.webp" class="img-fluid rounded"
+                     style="max-width: 100%; height: auto;">
+                <p class="image-title text-center">관리자 예매 정보 관리</p>
+                <p class="image-description text-center">☑️ 예매 검색/취소 기능</p>
             </div>
         </div>
     </div>

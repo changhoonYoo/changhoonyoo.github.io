@@ -178,20 +178,20 @@ education:
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image: "assets/images/portfolio/bus-1.png"
+  - image: "assets/images/portfolio/bus/bus-1.png"
     url: "assets/images/portfolio/bus.html"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image: "assets/images/portfolio/mobilia/mobilia_1.png"
+    url: "assets/images/portfolio/mobilia.html"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-4.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
+  - image: "assets/images/portfolio/message/message_main.webp"
+    url: "assets/images/portfolio/message.html"
+#
+#  - image: "assets/images/portfolio/item-4.png"
+#    url: "#"
+#
+#  - image: "assets/images/portfolio/item-5.png"
+#    url: "#"
 
 # Portfolio Page
 portfolio-label:
@@ -200,53 +200,53 @@ portfolio-label:
   - { title: "Personal", type: "personal" }
 
 portfolio-items:
-  - image: "assets/images/portfolio/bus-1.png"
+  - image: "assets/images/portfolio/bus/bus-1.png"
     url: "assets/images/portfolio/bus.html"
     portfolio-type:
       - type: "bootcamp"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image: "assets/images/portfolio/mobilia/mobilia_1.png"
+    url: "assets/images/portfolio/mobilia.html"
     portfolio-type:
-      - type: "branding"
+      - type: "bootcamp"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
+  - image: "assets/images/portfolio/message/message_main.webp"
+    url: "assets/images/portfolio/message.html"
     portfolio-type:
-      - type: "illustration"
-
-  - image: "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+      - type: "work"
+#
+#  - image: "assets/images/portfolio/item-6.png"
+#    url: "#"
+#    portfolio-type:
+#      - type: "design"
+#      - type: "branding"
+#
+#  - image: "assets/images/portfolio/item-8.png"
+#    url: "#"
+#    portfolio-type:
+#      - type: "illustration"
+#
+#  - image: "assets/images/portfolio/item-5.png"
+#    url: "#"
+#    portfolio-type:
+#      - type: "design"
+#
+#  - image: "assets/images/portfolio/item-1.png"
+#    url: "#"
+#    portfolio-type:
+#      - type: "branding"
+#
+#  - image: "assets/images/portfolio/item-3.png"
+#    url: "#"
+#    portfolio-type:
+#      - type: "design"
+#      - type: "illustration"
+#      - type: "branding"
+#
+#  - image: "assets/images/portfolio/item-7.png"
+#    url: "#"
+#    portfolio-type:
+#      - type: "illustration"
 
 #-------------------------------
 # Testimonials Section

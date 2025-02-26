@@ -1,0 +1,114 @@
+<aside>
+    <div class="container project-container">
+        <h3 style="padding-top:50px;text-align:center; font-weight:600;">✉️ 문자 발송 웹서비스</h3>
+
+        <h4 style="font-weight:600;padding-top:30px;">🚩 Description</h4>
+        <table class="table table-dark table-hover">
+            <tbody>
+            <tr>
+                <th>프로젝트 소개</th>
+                <td>대량 문자를 발송하는 웹서비스로 SpringBoot RestAPI 백엔드 서버 개발</td>
+            </tr>
+            <tr>
+                <th>개발 기간</th>
+                <td>2023.10 ~ 2024.03</td>
+            </tr>
+            <tr>
+                <th>직책</th>
+                <td>백엔드 팀장</td>
+            </tr>
+            <tr>
+                <th>담당 업무</th>
+                <td>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-person-check"></i> <b>회원가입</b> - 본인인증 API 연동</li>
+                        <li><i class="bi bi-credit-card"></i> <b>결제</b> - PG API 연동</li>
+                        <li><i class="bi bi-person"></i> <b>회원정보</b> - 회원정보 변경, 비밀번호 변경, 회원 탈퇴</li>
+                        <li><i class="bi bi-bookmark"></i> <b>주소록</b> - 주소록 CRUD</li>
+                        <li><i class="bi bi-send"></i> <b>문자 발송</b> - 즉시 전송, 예약 전송, 반복 전송 기능, 문자 발송 플랫폼 연동</li>
+                        <li><i class="bi bi-clock-history"></i> <b>이력 관리</b> - 결제 내역 관리, 문자 발송 이력 관리</li>
+                        <li><i class="bi bi-file-earmark"></i> <b>구독</b> - 구독 서비스 설계, DB 설계, 구독 상태 관리</li>
+                        <li><i class="bi bi-chat-left-dots"></i> <b>채팅(웹, 단말기)</b> - 구독 회원 간 채팅 기능, 단말기와의 문자 발송 및 수신 채팅화
+                        </li>
+                        <li><i class="bi bi-phone"></i> <b>ARS 서비스</b> - ARS 대응 시나리오 설정</li>
+                        <li><i class="bi bi-megaphone"></i> <b>Google TTS/STT 연동</b></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>운영 체제</th>
+                <td>Linux</td>
+            </tr>
+            <tr>
+                <th>개발 툴</th>
+                <td>Intellij, Postman, DBeaver, WinSCP, Mobaxterm, VSCode, JMeter</td>
+            </tr>
+            <tr>
+                <th>개발 스킬</th>
+                <td>Java, JPA, Jwt, Websocket, Spring Security, Docker, SQL, PL/SQL, Apache, Nginx</td>
+            </tr>
+            <tr>
+                <th>데이터베이스</th>
+                <td>PostgreSQL, Oracle, Mysql, Redis</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <h4 style="font-weight:600;padding-top:30px;">🚩 Images</h4>
+        <div class="image-gallery">
+            <div class="p-image-item fifty border-image">
+                <img src="assets/images/portfolio/message/nice.png" class="img-fluid rounded"
+                     style="max-width: 100%; height: auto;">
+                <p class="image-title text-center">본인인증 API 연동</p>
+                <p class="image-description text-center">☑️ 개인정보(CI/DI)의 평문 노출을 피하는 설계로 개인정보 보호에 있어 안정성있게 구현했습니다.</p>
+            </div>
+
+            <div class="p-image-item fifty border-image">
+                <img src="assets/images/portfolio/message/pg.png" class="img-fluid rounded"
+                     style="max-width: 100%; height: auto;">
+                <p class="image-title text-center">결제 API 연동</p>
+                <p class="image-description text-center">☑️ 결제 성공 시 이력과 함께 회원데이터에 금액을 충전하고, try-catch 구문으로 실패 시 환불 처리되는 로직을 구성했습니다.</p>
+            </div>
+        </div>
+        <div class="image-gallery">
+            <div class="p-text-item forty border-image">
+                <p class="text-title text-center">Websocket을 활용한 채팅 기능</p>
+                <p class="text-description text-center">☑️ Stomp 프로토콜로 수신 문자 메시지에 대한 실시간 알림과 회원간의 채팅을 구현하였습니다.</p>
+            </div>
+            <div class="p-text-item forty border-image">
+                <p class="text-title text-center">Linux 환경에서의 운영</p>
+                <p class="text-description text-center">☑️ 기본적인 리눅스 명령어를 다룰 줄 알며, 쉘 스크립트를 사용하여 웹서버를 운영하였습니다.</p>
+            </div>
+
+            <div class="p-text-item forty border-image">
+                <p class="text-title text-center">JMeter를 활용한 부하테스트</p>
+                <p class="text-description text-center">☑️ JMeter로 API를 안정적으로 고도화 하였습니다.</p>
+            </div>
+
+            <div class="p-text-item forty border-image">
+                <p class="text-title text-center">Apache, Nginx</p>
+                <p class="text-description text-center">☑️ 운영 웹서버는 Apache로 운영하였고, stage 웹서버는 Nginx를 운영하였습니다.</p>
+            </div>
+
+            <div class="p-text-item forty border-image">
+                <p class="text-title text-center">대량의 메시지 발송 요청</p>
+                <p class="text-description text-center">☑️ 대량 메시지 발송을 비동기 처리하여 사용자 경험을 크게 개선하였습니다.</p>
+            </div>
+
+            <div class="p-text-item forty border-image">
+                <p class="text-title text-center">엑셀 첨부로 주소록 등록</p>
+                <p class="text-description text-center">☑️ poi 라이브러리를 활용하여 엑셀 내 내용을 데이터베이스로 적재하는 과정에서 배치 처리를 하여 메모리 사용량을 줄이고 성능을 최적화하였습니다.</p>
+            </div>
+
+            <div class="p-text-item forty border-image">
+                <p class="text-title text-center">Google TTS/STT 연동</p>
+                <p class="text-description text-center">☑️ 요청 파라미터를 세분화하여 클라이언트에서 커스텀하기 쉽게 구조를 만들었습니다.</p>
+            </div>
+
+            <div class="p-text-item forty border-image">
+                <p class="text-title text-center">구독 서비스의 설계</p>
+                <p class="text-description text-center">☑️ 서비스의 취지를 고려하며 확장성있게 설계하였습니다.</p>
+            </div>
+        </div>
+    </div>
+</aside>
