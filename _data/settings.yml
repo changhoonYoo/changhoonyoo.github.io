@@ -181,14 +181,14 @@ portfolio-home-items:
   - image: "assets/images/portfolio/bus/bus-1.png"
     url: "assets/images/portfolio/bus.html"
 
+  - image: "assets/images/portfolio/mcmp/mcmp_1.webp"
+    url: "assets/images/portfolio/mcmp.html"
+
   - image: "assets/images/portfolio/mobilia/mobilia_1.png"
     url: "assets/images/portfolio/mobilia.html"
 
   - image: "assets/images/portfolio/message/message_main.webp"
     url: "assets/images/portfolio/message.html"
-#
-#  - image: "assets/images/portfolio/item-4.png"
-#    url: "#"
 #
 #  - image: "assets/images/portfolio/item-5.png"
 #    url: "#"
@@ -205,6 +205,11 @@ portfolio-items:
     portfolio-type:
       - type: "bootcamp"
 
+  - image: "assets/images/portfolio/mcmp/mcmp_1.webp"
+    url: "assets/images/portfolio/mcmp.html"
+    portfolio-type:
+      - type: "work"
+
   - image: "assets/images/portfolio/mobilia/mobilia_1.png"
     url: "assets/images/portfolio/mobilia.html"
     portfolio-type:
@@ -214,13 +219,7 @@ portfolio-items:
     url: "assets/images/portfolio/message.html"
     portfolio-type:
       - type: "work"
-#
-#  - image: "assets/images/portfolio/item-6.png"
-#    url: "#"
-#    portfolio-type:
-#      - type: "design"
-#      - type: "branding"
-#
+
 #  - image: "assets/images/portfolio/item-8.png"
 #    url: "#"
 #    portfolio-type:

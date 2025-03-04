@@ -5,26 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24681ffb-d819-47af-bb98-ee43e083eabb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/message.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/mobilia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/mcmp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/portfolio/mcmp/mcmp_1.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_data/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/settings.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/portfolio-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/portfolio-section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bus-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bus-10.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bus-11.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bus-12.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bus-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bus-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bus-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bus-5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bus-6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bus-7.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bus-8.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bus-9.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/bus.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/portfolio/bus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/portfolio/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/portfolio/message.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
